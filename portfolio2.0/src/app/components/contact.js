@@ -26,7 +26,7 @@ const Contact = () => {
                             <div className="flex place-items-center justify-center h-10 w-10 max-[580px]:h-7 max-[580px]:w-7 rounded-full bg-gray-200 backdrop-blur-md bg-opacity-30">
                                 <IoIosCall className="text-2xl max-[580px]:text-lg"/>
                             </div>
-                            <p className="text-[14px] max-[960px]:text-[12px]">For calls, kindly text on social media</p>
+                            <p className="text-[14px] max-[960px]:text-[12px]">For calls, kindly text on social media.</p>
                         </div>
                     </div>
                 </div>
