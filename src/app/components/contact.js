@@ -44,7 +44,7 @@ const Contact = () => {
                 
             </div>
             <img src="/images/sit4.png" alt="" className="absolute w-96 max-sm:w-80 -top-[235px] -right-0 max-sm:-right-28 max-lg:-right-24 z-40" />
-            <img src="/images/eclipse.png" alt="" className="absolute w-[700px] rotate-90 -bottom-44 -left-20 z-10" />
+            <img src="/images/eclipse.png" alt="" className="absolute w-[700px] max-[400px]: -bottom-32 rotate-90 -bottom-44 -left-20 z-10" />
         </div>
      );
 }
