@@ -31,13 +31,13 @@ const Hero = () => {
     return ( 
         <div className="relative" id="home">
         <div className="py-40 max-md:py-10 px-48 max-lg:px-28 max-md:px-20 max-sm:px-5  flex flex-col gap-8 z-40 relative">
-                <h1 className="text-5xl max-md:text-[40px] max-sm:text-[32px] max-[600px]:text-[30px]  leading-[60px] font-bold">Transforming creative ideas<br/> into stunning realities <br/>as a Frontend web developer. </h1>
+                <h1 className="text-5xl max-md:text-[40px] max-sm:text-[32px] max-[600px]:text-[30px]  leading-[60px] max-[400px]:leading-[50px] font-bold">Transforming creative ideas<br/> into stunning realities <br/>as a Frontend web developer. </h1>
                 <div className="flex gap-5 items-center">
-                <Link href="/#contact"> <h3 className="h-12 w-44 max-[400px]:w-32 max-[400px]:h-10 bg-gray-700 rounded-full text-center flex items-center justify-center text-[14px]">Hire me</h3></Link>
-                    <h3 className="h-12 w-44 max-[400px]:w-32 max-[400px]:h-10 bg-gradient-to-br from-[#C961DE] to-[#2954A3] rounded-full text-center flex items-center justify-center text-[14px] cursor-pointer" onClick={handleDownload}>Download CV</h3>
+                <Link href="/#contact"> <h3 className="h-12 w-44 max-[350px]:w-32 max-[350px]:h-10 bg-gray-700 rounded-full text-center flex items-center justify-center text-[14px]">Hire me</h3></Link>
+                    <h3 className="h-12 w-44 max-[350px]:w-32 max-[350px]:h-10 bg-gradient-to-br from-[#C961DE] to-[#2954A3] rounded-full text-center flex items-center justify-center text-[14px] cursor-pointer" onClick={handleDownload}>Download CV</h3>
                 </div>
             </div>
-            <img src="/images/Group 1190.png" alt="" className="absolute right-0 -bottom-10 z-10 w-[800px] " />
+            <img src="/images/Group 1190.png" alt="" className="absolute right-0 -bottom-10 z-10 w-[800px] max-[400px]:w-[600px]" />
         </div>
      );
 }
